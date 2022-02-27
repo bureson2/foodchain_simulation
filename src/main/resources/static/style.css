@@ -1,0 +1,162 @@
+#mainHeader {
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: white;
+    font-family: "Agency FB";
+    font-weight: bold;
+    font-size: 3em;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background.jpg');
+}
+
+#mainButton {
+    background-color: #ea9d8d;
+    padding: 15px 32px;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border: none;
+    font-family: "Agency FB";
+    font-weight: bold;
+    transition-duration: 0.4s;
+    margin: auto;
+    position: relative;
+    margin-top: 15px;
+}
+
+#mainButton:hover {
+    background-color: White; /* Green */
+    color: #ea9d8d;
+}
+
+.body {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#topic{
+    text-align: center;
+    color: white;
+    font-family: "Agency FB";
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.configForm {
+    text-align: center;
+}
+
+#inputs {
+    margin: auto;
+    display: inline-block;
+}
+
+input {
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 8px 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-family: "Agency FB";
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+label {
+    font-size: 18px;
+    font-family: "Agency FB";
+    font-weight: bold;
+    color: #ea9d8d;
+    display: inline-block;
+    text-align: right;
+}
+
+div label {
+    display: block;
+}
+
+
+.reportLine{
+    border: 1px solid;
+    padding: 15px;
+    background: #ffffff7a;
+    border-radius: 10px;
+    font-family: 'Arial';
+    margin: 15px;
+    font-size: 18px;
+}
+
+.reports{
+    border-radius: 20px;
+    background-color: rgba(255, 211, 211, 0.38);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 25px;
+}
+
+.uuid{
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 20px;
+}
+
+#bar{
+    list-style-type: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    letter-spacing: 1px;
+    font-family: 'Agency FB';
+    font-weight: bold;
+}
+
+#navbar li {
+    border-right: 1px solid #bbb;
+}
+
+#navbar li:last-child {
+    border-right: none;
+}
+
+#navbar ul {
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navbar li a:hover {
+    background-color: #e89999;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+

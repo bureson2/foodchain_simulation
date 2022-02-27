@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoices</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="navbar"><ul id="bar">
+    <li><a href="/config.html">CONFIG</a></li>
+    <li><a href="/animals">ANIMALS</a></li>
+    <li><a href="/crops">CROPS</a></li>
+    <li><a href="/invoices">INVOICES</a></li>
+</ul></div>
+
+
+<div id="topic">
+    <p th:text="INVOICES"></p>
+</div>
+
+<div th:each="report : ${invoices}">
+    <ul class="reports">
+        <div th:text="${report.key}" class="uuid"></div>
+        <div th:each="x : ${report.value}">
+            <li class="reportLine" th:text="${x}"></li>
+        </div>
+    </ul>
+</div>
+
+</body>
+</html>
